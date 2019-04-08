@@ -9,7 +9,7 @@ if ("geolocation" in navigator){
   navigator.geolocation.getCurrentPosition(function(position) {
 
 
-  request.open('GET', " https://api.darksky.net/forecast/1778cc0d0f62e65c0b1e805adab619f5/" + position.coords.latitude + "," + position.coords.longitude  + "", true);
+  request.open('GET', " https://api.darksky.net/forecast/[KEY]/" + position.coords.latitude + "," + position.coords.longitude  + "", true);
 
 
   request.onload = function () {
