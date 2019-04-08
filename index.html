@@ -6,16 +6,36 @@
     <head>
       <title> Weather Api </title>
       <link rel="stylesheet" type="text/css" href="./style.css">
-      <script src="script.js"></script>
     </head>
 
     <body>
 
-      info
+      <div id='main'>
+        <div id='img-container'>
+          <img id='image' src='./images/clear_day.png' alt='weather_pic'/>
+        </div>
 
-      <footer>
-        <a href="https://darksky.net" target="_blank"<p>Powered by Dark Sky</p></a>
-      </footer>
+        <div id='temp-container'>
+          <p id='weather-summary'>description</p>
+          <h3 id='temperature'>0</h3>
+        </div>
+
+        <div id='detail-container'>
+          <div>
+            <p>Wind Speed</p>
+            <p>Chance of Rain</p>
+          </div>
+
+          <div>
+            <p id='wind-speed'>-1 mph<p>
+            <p id='rain-chance'>-1 %</p>
+          </div>
+        </div>
+
+        <a href="https://darksky.net" target="_blank"<p id='darksky'>Powered by Dark Sky</p></a>
+
+        <script src="script.js"></script>
+      </div>
     </body>
 
   </html>

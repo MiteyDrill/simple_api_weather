@@ -10,9 +10,9 @@ request.onload = function () {
   let data = JSON.parse(this.response);
 
   console.log(data);
-  // data.forEach(weather => {
-  //   console.log(weather.title);
-  // })
+
+  let temp = 
+
 }
 
 
